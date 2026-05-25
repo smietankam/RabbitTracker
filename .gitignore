@@ -32,3 +32,40 @@ replay_pid*
 # AI tooling
 .agents/
 .claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+# uv.lock is committed; only the cache is ignored
+.uv/
+
+# Django
+*.sqlite3
+db.sqlite3
+/staticfiles/
+/media/
+local_settings.py
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
